@@ -5,9 +5,16 @@ const catalogo = [
   { id: 3, nombre: "Derecho", duracion: "10 semestres" }
 ];
 
+/*
 // Mostrar catálogo
 catalogo.forEach(programa => {
   console.log(${programa.id}. ${programa.nombre} - ${programa.duracion});
+});
+*/
+
+// Mostrar catálogo
+catalogo.forEach(programa => {
+  console.log(`${programa.id}. ${programa.nombre} - ${programa.duracion}`);
 });
 
 
